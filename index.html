@@ -53,9 +53,18 @@
         </header>
         <main>
                 <section class="hero">
-                    <div class="container hero-container">
-                    <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br/> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                    <button class="btn btn-index btn-shadow hero-btn cursor" type="button">Заказать услугу</button>
+                    <div class="container hero-container" >
+                        <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br/> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+                        <button class="btn btn-index btn-shadow hero-btn cursor" type="button" data-modal-open>Заказать услугу</button>
+                        <div class="backdrop is-hidden" data-modal>
+                            <div class="modal">
+                            <button type="button" data-modal-close class="btn-modal">
+                                <svg class="modal-close-icon" width="11x" height="11px">
+                                    <use href="./images/icons.svg#icon-ellips-x-close"></use>
+                                </svg>
+                            </button>
+                            </div>
+                        </div>
                     </div>
                 </section>
             <section class="about">
@@ -103,9 +112,13 @@
         <section class="project">
             <div class="container">
             <h2 class="project-title">Чем мы занимаемся</h2>    
-            <ul class="list img-list-cntainer">  
+            <ul class="list img-list-container">  
                 <li class="img-list">
+                    
                     <img src="./images/box-1.jpg" alt="руки печатают на клавиатуре" width="370">
+                    <div class="project-list-title">
+                    <p class="project-title-text">Десктопные приложения</p>
+                    </div>
                 </li>
                 <li class="img-list">
                     <img src="./images/box-2.jpg" alt="одна рука дердит телефон, а втора работает на компьютере " width="370"/>
@@ -378,6 +391,7 @@
                 </div>
             </div>
         </footer>
+        <script src="./js/modal.js"></script>
     </body>
 </html>
 
