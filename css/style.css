@@ -69,6 +69,7 @@ body {
 .btn-shadow:hover,
 .btn-shadow:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cursor {
@@ -139,6 +140,7 @@ body {
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-icon {
@@ -156,6 +158,7 @@ body {
 .contact-icon:focus,
 .contact-icon:hover {
   fill: var(--accent-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact {
@@ -248,6 +251,7 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
   z-index: 2;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -480,6 +484,7 @@ body {
 .list-icon-item .link:focus {
   background: var(--accent-color);
   fill: var(--header-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------clients-------------- */
@@ -537,6 +542,7 @@ body {
 .clients-name:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------footer-------------- */
@@ -637,6 +643,7 @@ body {
 .footer-list-icon-item .link:hover,
 .footer-list-icon-item .link:focus {
   background: var(--accent-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
@@ -698,6 +705,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--header-color);
   background-color: var(--accent-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------gallery-------------- */
@@ -750,6 +758,7 @@ body {
 .gallery-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-item-wrap {
